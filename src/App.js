@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import axios from "axios";
 import React from "react";
 import Movie from "./Movie";
+import "./App.module.scss";
 
 class App extends React.Component {
   state = {
