@@ -1,8 +1,7 @@
-import PropTypes from "prop-types";
 import axios from "axios";
 import React from "react";
 import Movie from "./Movie";
-import "./App.module.scss";
+import "./App.css";
 
 class App extends React.Component {
   state = {
@@ -43,6 +42,7 @@ class App extends React.Component {
                 title={movie.title}
                 summary={movie.summary}
                 poster={movie.medium_cover_image}
+                genres={movie.genres}
               />
             ))}
           </div>
